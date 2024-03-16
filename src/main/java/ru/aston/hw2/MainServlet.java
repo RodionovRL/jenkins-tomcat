@@ -15,6 +15,7 @@ public class MainServlet extends HttpServlet {
         resp.setContentType("text/html");
         PrintWriter printWriter = resp.getWriter();
         printWriter.write("Hello! Jenkins?");
+        printWriter.write("Yes! It's me!");
         printWriter.close();
     }
 }
